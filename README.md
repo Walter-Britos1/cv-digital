@@ -3,12 +3,12 @@
 
 CV digital de Walter Britos, desarrollador Full Stack (React, Node.js, PostgreSQL). Es una sola página, hecha con HTML, CSS y JavaScript puro, que reúne mi perfil, experiencia, proyectos y stack en un formato visual y rápido de leer.
 
-**Ver en vivo:** [TU-LINK-ACÁ](TU-LINK-ACÁ)
+**Ver en vivo:** [LINK](https://cv-digital-kappa.vercel.app/)
 
 ## 📸 Vista previa
 
 <!-- Reemplazá la ruta por la imagen de captura de tu proyecto -->
-![Vista previa del CV digital](assets/preview.png)
+![Vista previa del CV digital](assets/preview.jpeg)
 
 ## ✨ Qué incluye
 
@@ -46,7 +46,7 @@ No necesita instalación ni compilación. Descargá o cloná el repositorio y ab
 ### Clonar el repositorio
 
 ```bash
-git clone https://github.com/walter-britos1/cv-digital.git
+git clone https://github.com/Walter-Britos1/cv-digital.git
 cd cv-digital
 ```
 
