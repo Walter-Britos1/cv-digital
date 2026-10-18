@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>Walter Britos · Desarrollador Full Stack</title>
+    <meta
+      name="description"
+      content="CV digital de Walter Britos, desarrollador Full Stack (React, Node.js, PostgreSQL). Plataformas de reservas, pagos e integraciones con WhatsApp y Google."
+    />
+    <meta name="theme-color" content="#4a35c9" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Walter Britos · Desarrollador Full Stack"
+    />
+    <meta
+      property="og:description"
+      content="Aplicaciones web de punta a punta: reservas, pagos, paneles administrativos e integraciones con WhatsApp y Google."
+    />
+    <meta property="og:locale" content="es_AR" />
+    <!-- Cuando publiques la página, agregá acá la URL final y una imagen de vista previa (1200x630):
+    <meta property="og:url" content="https://TU-DOMINIO">
+    <meta property="og:image" content="https://TU-DOMINIO/assets/preview.jpg">
+    <meta name="twitter:card" content="summary_large_image"> -->
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <svg width="0" height="0" style="position: absolute" aria-hidden="true">
+      <symbol id="i-github" viewBox="0 0 24 24">
+        <path
+          d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+        />
+      </symbol>
+      <symbol id="i-whatsapp" viewBox="0 0 24 24">
+        <path
+          d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+        />
+      </symbol>
+      <symbol id="i-linkedin" viewBox="0 0 24 24">
+        <path
+          d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+        />
+      </symbol>
+      <symbol id="i-mail" viewBox="0 0 24 24">
+        <path
+          d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"
+        />
+      </symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24">
+        <path
+          d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
+        />
+      </symbol>
+    </svg>
+    <main class="sheet">
+      <header class="hero">
+        <button
+          class="theme"
+          id="theme"
+          type="button"
+          aria-label="Cambiar tema"
+        >
+          <span aria-hidden="true">☾</span>
+        </button>
+        <div class="avatar" aria-hidden="true">WB</div>
+        <div>
+          <h1>Walter Britos</h1>
+          <p>
+            Desarrollador Full Stack<span class="sep"> · </span
+            ><span class="stk">React · Node.js · PostgreSQL</span>
+          </p>
+          <p class="type">
+            <span id="tw">Plataformas de reservas y turnos</span
+            ><i class="caret"></i>
+          </p>
+          <div class="cta">
+            <a
+              class="b main"
+              href="https://wa.me/5493482774756?text=Hola%20Walter%2C%20vi%20tu%20CV%20y%20me%20gustar%C3%ADa%20hablar%20con%20vos."
+              target="_blank"
+              rel="noopener"
+              ><svg class="wa" width="16" height="16" aria-hidden="true">
+                <use href="#i-whatsapp" /></svg
+              >WhatsApp</a
+            >
+            <a class="b" target="_blank" href="https://www.linkedin.com/in/walter-britos"
+              >LinkedIn</a
+            >
+            <a class="b" target="_blank" href="https://github.com/walter-britos1">GitHub</a>
+          </div>
+        </div>
+      </header>
+
+      <div class="stats">
+        <div class="tile"><b>7</b><span>clientes atendidos</span></div>
+        <div class="tile"><b>4</b><span>proyectos destacados</span></div>
+        <div class="tile"><b>3</b><span>idiomas en un mismo sitio</span></div>
+        <div class="tile"><b>25+</b><span>secciones administradas</span></div>
+      </div>
+
+      <div class="cols">
+        <div>
+          <section class="block">
+            <h2>Perfil</h2>
+            <p style="margin: 0">
+              Experiencia desarrollando aplicaciones web de punta a punta, desde
+              el relevamiento hasta producción. Plataformas multilenguaje,
+              sistemas de reservas y paneles administrativos, con integraciones
+              de WhatsApp API, Mercado Pago y Google (Calendar, Maps y Auth).
+            </p>
+          </section>
+
+          <section class="block">
+            <h2>Experiencia</h2>
+            <div class="tl">
+              <div class="job">
+                <b>Desarrollador Full Stack · SINAG</b
+                ><span class="when">Ene 2024 – Ago 2026 · Remoto</span>
+                <p>
+                  Aplicaciones web a medida para 7 clientes de distintos
+                  sectores, con despliegue en Vercel y Railway, paneles
+                  administrativos, autenticación con JWT y tiempo real con
+                  Socket.IO.
+                </p>
+              </div>
+              <div class="job">
+                <b>Desarrollador Front-End · Red Por la Infancia</b
+                ><span class="when">Sep 2024 – Jul 2025 · Remoto</span>
+                <p>
+                  Rediseño del sitio institucional con WordPress y Divi, e
+                  implementación y administración de más de 25 secciones.
+                </p>
+              </div>
+              <div class="job">
+                <b>Web Content Uploading · GAO Tec Inc</b
+                ><span class="when">Jul 2024 – Nov 2024 · Remoto</span>
+                <p>
+                  Páginas de productos y servicios en WordPress junto a un
+                  equipo internacional. Propuesto para apoyar al líder del
+                  equipo.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section class="block">
+            <h2>Proyectos</h2>
+            <article class="proj">
+              <h3>Asistencia vehicular por WhatsApp</h3>
+              <p>
+                Automatiza el servicio completo: solicitud, cobro con Mercado
+                Pago y asignación del prestador más cercano por geolocalización.
+                Incluye panel con monitoreo de conversaciones en tiempo real.
+              </p>
+              <ul class="chips">
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Redis</li>
+                <li>Socket.IO</li>
+                <li>WhatsApp API</li>
+                <li>Mercado Pago</li>
+              </ul>
+            </article>
+            <article class="proj">
+              <h3>Sitio Web · Roberto Roberto</h3>
+              <p>
+                Sitio web para una cadena de peluquerías que incluye un sistema
+                propio de reserva de turnos, el cual reemplazó una solución de
+                terceros. Los clientes eligen profesional según su
+                disponibilidad y los turnos se sincronizan con Google Calendar.
+              </p>
+              <ul class="chips">
+                <li>React</li>
+                <li>Node.js</li>
+                <li>PostgreSQL</li>
+                <li>Google Calendar</li>
+                <li>JWT</li>
+              </ul>
+              <a
+                class="demo"
+                target="_blank"
+                href="https://peluqueriarobertoroberto.vercel.app/"
+                >Ver demo ↗</a
+              >
+            </article>
+            <article class="proj">
+              <h3>Plataforma web para fotógrafa</h3>
+              <p>
+                Sitio en español e inglés con panel para que la clienta edite su
+                contenido por su cuenta.
+              </p>
+              <ul class="chips">
+                <li>React</li>
+                <li>i18next</li>
+                <li>Google Auth</li>
+              </ul>
+              <a class="demo" target="_blank" href="https://www.joyceweissevans.com/"
+                >Ver demo ↗</a
+              >
+            </article>
+            <article class="proj">
+              <h3>Sitio corporativo para consultora</h3>
+              <p>
+                Sitio en tres idiomas con formularios protegidos con reCAPTCHA,
+                enfocado en rendimiento y SEO.
+              </p>
+              <ul class="chips">
+                <li>React</li>
+                <li>Tailwind CSS</li>
+                <li>reCAPTCHA</li>
+              </ul>
+              <a class="demo" target="_blank" href="https://proyecto-sinagweb.vercel.app/"
+                >Ver demo ↗</a
+              >
+            </article>
+            <article class="proj">
+              <h3>Sitio web · Red Por la Infancia</h3>
+              <p>
+                Rediseño integral del sitio institucional de la organización,
+                con más de 25 secciones, contenido multimedia, documentos y
+                formularios de contacto, trabajando junto a la fundadora, la
+                diseñadora y la responsable de contenidos.
+              </p>
+              <ul class="chips">
+                <li>WordPress</li>
+                <li>Divi</li>
+                <li>Optimización de velocidad</li>
+              </ul>
+              <a class="demo" target="_blank" href="https://redporlainfancia.org/">Ver sitio ↗</a>
+            </article>
+          </section>
+        </div>
+
+        <aside class="side">
+          <section class="block">
+            <h2>Contacto</h2>
+            <a class="ct" href="mailto:walterbritos418@gmail.com"
+              ><svg class="brand mail" aria-hidden="true">
+                <use href="#i-mail" /></svg
+              >walterbritos418@gmail.com</a
+            >
+            <a class="ct" target="_blank" href="https://www.linkedin.com/in/walter-britos"
+              ><svg class="brand li" aria-hidden="true">
+                <use href="#i-linkedin" /></svg
+              >linkedin.com/in/walter-britos</a
+            >
+            <a class="ct" target="_blank" href="https://github.com/walter-britos1"
+              ><svg class="brand" aria-hidden="true">
+                <use href="#i-github" /></svg
+              >github.com/walter-britos1</a
+            >
+            <div class="ct">
+              <svg class="brand pin" aria-hidden="true">
+                <use href="#i-pin" /></svg
+              >Reconquista, Argentina · Remoto
+            </div>
+          </section>
+
+          <section class="block">
+            <h2>Stack</h2>
+            <div class="grp">
+              <small>Frontend</small>
+              <ul class="chips">
+                <li>React</li>
+                <li>JavaScript</li>
+                <li>Redux Toolkit</li>
+                <li>Tailwind CSS</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Vite</li>
+                <li>i18next</li>
+              </ul>
+            </div>
+            <div class="grp">
+              <small>Backend</small>
+              <ul class="chips">
+                <li>Node.js</li>
+                <li>Express</li>
+                <li>REST API</li>
+                <li>JWT</li>
+                <li>Socket.IO</li>
+                <li>Sequelize</li>
+              </ul>
+            </div>
+            <div class="grp">
+              <small>Bases de datos</small>
+              <ul class="chips">
+                <li>PostgreSQL</li>
+                <li>Redis</li>
+              </ul>
+            </div>
+            <div class="grp">
+              <small>Integraciones</small>
+              <ul class="chips">
+                <li>WhatsApp API</li>
+                <li>Mercado Pago</li>
+                <li>Google Calendar</li>
+                <li>Google Maps</li>
+                <li>Google Auth</li>
+                <li>reCAPTCHA</li>
+              </ul>
+            </div>
+            <div class="grp">
+              <small>Herramientas</small>
+              <ul class="chips">
+                <li>Git</li>
+                <li>Vercel</li>
+                <li>Railway</li>
+                <li>WordPress</li>
+                <li>Vs Code</li>
+                <li>Insomnia</li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="block">
+            <h2>Educación</h2>
+            <div class="edu">
+              <b>Oracle Next Education · Alura Latam</b
+              ><span>Desarrollo Back-End · 2024 – 2025</span>
+            </div>
+            <div class="edu">
+              <b>Soy Henry</b><span>Bootcamp Full Stack JavaScript · 2023</span>
+            </div>
+            <div class="edu">
+              <b>Bachiller en Administración de Empresas</b><span>2015</span>
+            </div>
+          </section>
+        </aside>
+      </div>
+    </main>
+    <script src="js/main.js"></script>
+  </body>
+</html>
